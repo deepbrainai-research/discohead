@@ -1,0 +1,184 @@
+---
+---
+
+@import 'jekyll-theme-architect';
+
+
+// // sets
+
+$gl-ms         : "screen and (max-width: 23.5em)"; // up to 360px
+$gl-xs         : "screen and (max-width: 35.5em)"; // up to 568px
+$gl-sm         : "screen and (max-width: 48em)";   // max 768px
+$gl-md         : "screen and (max-width: 64em)";   // max 1024px
+$gl-lg         : "screen and (max-width: 80em)";   // max 1280px
+
+// table style
+
+table 			      { 
+    border-spacing: 1; 
+  border-collapse: collapse; 
+  background:#fafafa;
+  border-radius:6px;
+  overflow:hidden;
+//   max-width:800px; 
+  width:100%;
+  table-layout: fixed;
+//   margin:0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position:relative;
+  
+  *               { position:relative }
+  
+  td,th           { 
+      vertical-align: middle;
+
+  }
+
+  thead tr        { 
+    height:60px;
+    // background:#9ddcff;
+    background: #01031f;
+    font-size:16px;
+    // border-bottom:  double #01031f30 ;
+    color: white;
+
+    th {
+        text-align: center !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        height: 100% !important;
+    }
+  }
+  
+  tbody tr        { 
+      height:48px; 
+      &:last-child  { border:0; }
+  }
+  
+
+ 	td,th 					{ 
+        text-align:center; font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+        word-break: break-all;
+          &.l 					{ text-align:right }
+		&.c 					{ text-align:center }
+		&.r 					{ text-align:center }
+
+  }
+
+  td {
+    border-bottom:1px dashed #01031f30 ;
+  }
+
+  td > * {
+      vertical-align : middle;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      // height: 30px;
+  }
+    
+    // counter-reset: rowNumber;
+      
+    // tr::before {
+    //     display: table-cell;
+    //     counter-increment: rowNumber;
+    //     content: counter(rowNumber) ".";
+    //     // padding-right: 0.3em;
+    //     // text-align: right;
+    // }
+}
+
+audio {
+  // width: 80px;
+  width: 100%;
+  // width: auto;
+  height: 30px;
+}
+
+a {
+color: #9ddcff;
+}
+
+pre {
+  margin-top: 0px;
+}
+
+// @media #{$gl-xs}              {
+  
+//   table					              { display:block;
+// 	  > *,tr,td,th              { display:block }
+    
+//     thead                     { display:none }
+//     tbody tr                  { height:auto; padding:8px 0;
+//       td                      { padding-left:45%; margin-bottom:12px;
+//         &:last-child          { margin-bottom:0 }
+//         &:before              { 
+//           position:absolute;
+//           font-weight:700;
+//           width:40%;
+//           left:10px;
+//           top:0
+//         }
+        
+//         &:nth-child(1):before { content:"Code";}
+//         &:nth-child(2):before { content:"Stock";}
+//         &:nth-child(3):before { content:"Cap";}
+//         &:nth-child(4):before { content:"Inch";}
+//         &:nth-child(5):before { content:"Box Type";}
+//       }        
+//     }
+//   }
+// }  	
+
+
+
+// table {
+// 	// width: 800px;
+// 	border-collapse: collapse;
+// 	overflow: hidden;
+// 	// box-shadow: 0 0 20px rgba(102,102,102);
+// }
+
+// th,
+// td {
+// 	padding: 15px;
+// 	background-color: rgba(255,255,255,0.2);
+//     font-family: 'Helvetica Neue', Helvetica, Arial, serif;;
+// }
+
+// th {
+// 	text-align: left;
+// 	color: #fff;
+//     font-size: 20px;
+//     font-family: 'Helvetica Neue', Helvetica, Arial, serif;;
+// }
+
+// thead {
+// 	th {
+// 		background-color: #9ddcff;
+//         font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+// 	}
+// }
+
+// tbody {
+// 	tr {
+// 		&:hover {
+// 			background-color: rgba(255,255,255,0.3);
+// 		}
+// 	}
+// 	td {
+// 		position: relative;
+// 		&:hover {
+// 			&:before {
+// 				content: "";
+// 				position: absolute;
+// 				left: 0;
+// 				right: 0;
+// 				top: -9999px;
+// 				bottom: -9999px;
+// 				background-color: rgba(255,255,255,0.2);
+// 				z-index: -1;
+// 			}
+// 		}
+// 	}
+// }
