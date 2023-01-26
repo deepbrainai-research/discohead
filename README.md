@@ -28,7 +28,7 @@
 You can install required environments using below commands:
 
 ```shell
-git clone  https://github.com/deepbrainai-research/discohead
+git clone https://github.com/deepbrainai-research/discohead
 cd discohead
 conda env create -n discohead python=3.7
 conda activate discohead
@@ -36,7 +36,7 @@ conda install pytorch==1.10.0 torchvision==0.11.1 torchaudio==0.10.0 cudatoolkit
 pip install -r requirements.txt
 ```
 
-## Generating Demo Videos.
+## Generating Demo Videos
 
 - Download the pre-trained checkpoints from [google drive](https://drive.google.com/drive/folders/1JOWwCVF8v2yNJ_n6a4BsaXuZZFKGo4je?usp=sharing) and put into `weight` folder.
 - Download `dataset.zip` from [google drive](https://drive.google.com/drive/folders/1JOWwCVF8v2yNJ_n6a4BsaXuZZFKGo4je?usp=sharing) and unzip into `dataset`. 
