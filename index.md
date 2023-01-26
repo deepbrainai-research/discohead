@@ -75,15 +75,15 @@ For realistic talking head generation, creating natural head motion while mainta
 <!-- Fig.4. from original paper. Qualitative results on the KoEBA dataset. Driving video’s head motion, lip movements, and eye expressions are elegantly transferred to source images from different videos. Concretely, eyes getting smaller and wider magically drive source image. -->
 <br>
 
-<!-- <center>
-    <video controls preload="auto" width="640" height="320">
-        <source src="assets/demos/koeba1.mp4" type="video/mp4">
+<center>
+    <video controls preload="auto" width="700" height="380">
+        <source src="assets/demos/koeba2.mp4" type="video/mp4">
     </video>
     <br>
     Identity preservation and faithful transfer of head motion and facial expressions from multiple drivers
-</center>  -->
+</center> 
 <!-- Demo video from KoEBA dataset. This video shows DiscoHead's ability to arbitrarily control head pose, lip movements, eye expressions of source image to follow driving videos of different identities. Regardless of different characteristics of arbitrary identity, DiscoHead succintly extracts appropriate information from driving videos and use these identity-agnostic representation to transfer it into source image while preserving source image's detailed characteristics -->
-<!-- <br> -->
+<br>
 <b>Note:</b> The Korean election broadcast addresses dataset (KoEBA) is publicly available at <https://github.com/deepbrainai-research/koeba>.
 <br>
 <br>
