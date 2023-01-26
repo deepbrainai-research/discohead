@@ -13,8 +13,8 @@
 
 <h4 align="center">
     <p>
-        <a href="https://deepbrainai-research.github.io/discohead">Demo</a> | 
-        <a href="https://github.com/deepbrainai-research/koeba">KoEBA</a> 
+        <a href="https://deepbrainai-research.github.io/discohead">Project Page</a> | 
+        <a href="https://github.com/deepbrainai-research/koeba">KoEBA Dataset</a> 
     <p>
 </h4>
 
@@ -56,8 +56,8 @@ DisCoHead/
 ‥‥
 
 ```
-- The `--fig_number` argument is used for specifying which figure you want to generate.
-- To reproduce fig. 2 of obama dataset, run command :
+- The `--fig_number` argument is used for specifying which demo video of figure you want to generate.
+- For example, to reproduce demo video of fig. 2 original paper, run command :
 
 ```shell
 python test.py --fig_number 2
