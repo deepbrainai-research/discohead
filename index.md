@@ -17,10 +17,10 @@ For realistic talking head generation, creating natural head motion while mainta
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
     <video controls preload="auto" width="640" height="320">
-        <source src="assets/demos/fig2-.mp4" type="video/mp4">
+        <source src="assets/demos/fig2-font_.mp4" type="video/mp4">
     </video>
     <br>
-    Cumulative control of head pose, lip movements, and eye expressions by different drivers (Fig. 2).
+    Cumulative control of head pose, lip movements, and eye expressions by different drivers (Fig. 2)
 </center>
 <!-- Fig.2. from original paper. It visualizes disentangled control of head pose, lip movements and eye expressions on the Obama dataset. Head pose, lip movements, eye expressions are sequentially added to source image each following different driving video. Detailed expressions such as blinking eyes and raising eyebrows are elegantly transferred to the source image. -->
 <br>
@@ -28,10 +28,10 @@ For realistic talking head generation, creating natural head motion while mainta
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
     <video controls preload="auto" width="920" height="240">
-        <source src="assets/demos/obama_demo-.mp4" type="video/mp4">
+        <source src="assets/demos/obama_demo_.mp4" type="video/mp4">
     </video>
     <br>
-    Separate control of head pose, lip movements, and eye expressions, and the combination by a single driver.
+    Separate control of head motion, lip synchronization, and eye expressions by a single driver and their combination
 </center>
 <!-- Demo video from Obama dataset. DiscoHead can control specific components of source image to make it follow driving video. In the above eyes only driving video, eye expressions, eyebrows, and even wrinkles of forehead are correctly transferred to source image. This video shows DiscoHead’s ability to control single components among head pose, lip movements, and eye expressions while other components fixed. -->
 <br>
@@ -41,22 +41,22 @@ For realistic talking head generation, creating natural head motion while mainta
 
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
-    <video controls preload="auto" width="580" height="280">
-        <source src="assets/demos/grid1.mp4" type="video/mp4">
+    <video controls preload="auto" width="600" height="300">
+        <source src="assets/demos/grid1_.mp4" type="video/mp4">
     </video>
     <br>
-    Identity preservation and faithful transfer of head pose and facial expressions from a single driver (Fig 3).
+    Identity preservation and faithful transfer of head pose and facial expressions from a single driver (Fig. 3)
 </center>
 <!-- Fig.3. from original paper. Qualitative results on the GRID dataset.  Driver's lip movements, eye expressions are correctly transferred to source image while preserving source identity's original characteristics(eyes & lips appearance and motions, degree to close one's eyes and lips, positions of wrinkles and beards, direction of eye gaze,  location of eyebrows, etc.). This video shows DiscoHead's ability to maintain source identity's characteristics in highly detailed manner. -->
 <br>
 
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
-    <video controls preload="auto" width="600" height="300">
-        <source src="assets/demos/grid2.mp4" type="video/mp4">
+    <video controls preload="auto" width="640" height="320">
+        <source src="assets/demos/grid2_.mp4" type="video/mp4">
     </video>
     <br>
-    Identity preservation and faithful transfer of head pose and facial expressions from different drivers.
+    Identity preservation and faithful transfer of head pose and facial expressions from multiple drivers
 </center>
 <!-- Demo video from GRID dataset. Head motion, eyes expressions, lip movements from different identity are accurately transferred to source image. DiscoHead can drive head motion, eyes expressions, lip movements from different identity, regardless of driver's sex, appearance(glasses, skin color, hair length) or voice tone. -->
 <br>
@@ -67,24 +67,24 @@ For realistic talking head generation, creating natural head motion while mainta
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
     <video controls preload="auto" width="640" height="320">
-        <source src="assets/demos/koeba1-.mp4" type="video/mp4">
+        <source src="assets/demos/koeba1_.mp4" type="video/mp4">
     </video>
     <br>
-    Identity preservation and faithful transfer of head motion and facial expressions from a single driver (Fig. 4).
+    Identity preservation and faithful transfer of head motion and facial expressions from a single driver (Fig. 4)
 </center> 
 <!-- Fig.4. from original paper. Qualitative results on the KoEBA dataset. Driving video’s head motion, lip movements, and eye expressions are elegantly transferred to source images from different videos. Concretely, eyes getting smaller and wider magically drive source image. -->
 <br>
 
-<center>
+<!-- <center>
     <video controls preload="auto" width="640" height="320">
         <source src="assets/demos/koeba1.mp4" type="video/mp4">
     </video>
     <br>
-    Identity preservation and faithful transfer of head motion and facial expressions from a single driver.
-</center> 
+    Identity preservation and faithful transfer of head motion and facial expressions from multiple drivers
+</center>  -->
 <!-- Demo video from KoEBA dataset. This video shows DiscoHead's ability to arbitrarily control head pose, lip movements, eye expressions of source image to follow driving videos of different identities. Regardless of different characteristics of arbitrary identity, DiscoHead succintly extracts appropriate information from driving videos and use these identity-agnostic representation to transfer it into source image while preserving source image's detailed characteristics -->
-<br>
-Note: The KoEBA dataset is publicly available at <https://github.com/deepbrainai-research/koeba>.
+<!-- <br> -->
+<b>Note:</b> The Korean election broadcast addresses dataset (KoEBA) is publicly available at <https://github.com/deepbrainai-research/koeba>.
 <br>
 <br>
 
@@ -92,8 +92,8 @@ Note: The KoEBA dataset is publicly available at <https://github.com/deepbrainai
 
 <center>
     <figure>
-        <a href="https://github.com">
-            <img src="assets/images/github.png" width="180" height="60">
+        <a href="https://github.com/deepbrainai-research/discohead">
+            <img src="assets/images/github.png" width="170.45" height="63.18">
         </a>
     </figure>
     <!-- <a href="https://github.com/deepbrainai-research/discohead">Code</a> -->
