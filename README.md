@@ -58,12 +58,11 @@ DisCoHead/
 ‥‥
 
 ```
-- The `--mode` argument is used for specifying which demo video you want to generate.
-- available modes: `obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2`
-
+- The `--mode` argument is used to specify which demo video you want to generate:
 ```shell
 python test.py --mode {mode}
 ```
+- Available modes: `obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2`
 
 
 ## License
