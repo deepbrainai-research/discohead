@@ -20,9 +20,6 @@
 
 
 ## Requirements
-- CUDA 10.2
-- PyTorch 1.10.0
-- Python 3.7
 
 You can install required environments using below commands:
 
