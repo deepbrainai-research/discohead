@@ -16,8 +16,8 @@ For realistic talking head generation, creating natural head motion while mainta
 
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
-    <video controls preload="auto" width="640" height="320">
-        <source src="assets/demos/fig2-font_.mp4" type="video/mp4">
+    <video controls preload="auto" width="620" height="320">
+        <source src="assets/demos/obama_demo1.mp4" type="video/mp4">
     </video>
     <br>
     Cumulative control of head pose, lip movements, and eye expressions by different drivers (Fig. 2)
@@ -27,8 +27,8 @@ For realistic talking head generation, creating natural head motion while mainta
 
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
-    <video controls preload="auto" width="920" height="240">
-        <source src="assets/demos/obama_demo_.mp4" type="video/mp4">
+    <video controls preload="auto" width="920" height="180">
+        <source src="assets/demos/obama_demo2.mp4" type="video/mp4">
     </video>
     <br>
     Separate control of head motion, lip synchronization, and eye expressions by a single driver and their combination
@@ -42,7 +42,7 @@ For realistic talking head generation, creating natural head motion while mainta
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
     <video controls preload="auto" width="554" height="300">
-        <source src="assets/demos/grid12_.mp4" type="video/mp4">
+        <source src="assets/demos/grid_demo1.mp4" type="video/mp4">
     </video>
     <br>
     Identity preservation and faithful transfer of head pose and facial expressions from a single driver (Fig. 3)
@@ -52,8 +52,8 @@ For realistic talking head generation, creating natural head motion while mainta
 
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
-    <video controls preload="auto" width="640" height="320">
-        <source src="assets/demos/grid22_.mp4" type="video/mp4">
+    <video controls preload="auto" width="640" height="340">
+        <source src="assets/demos/grid_demo2.mp4" type="video/mp4">
     </video>
     <br>
     Identity preservation and faithful transfer of head pose and facial expressions from multiple drivers
@@ -66,8 +66,8 @@ For realistic talking head generation, creating natural head motion while mainta
 
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
-    <video controls preload="auto" width="600" height="300">
-        <source src="assets/demos/koeba1_.mp4" type="video/mp4">
+    <video controls preload="auto" width="640" height="340">
+        <source src="assets/demos/koeba_demo1.mp4" type="video/mp4">
     </video>
     <br>
     Identity preservation and faithful transfer of head motion and facial expressions from a single driver (Fig. 4)
@@ -77,7 +77,7 @@ For realistic talking head generation, creating natural head motion while mainta
 
 <center>
     <video controls preload="auto" width="720" height="400">
-        <source src="assets/demos/koeba23_.mp4" type="video/mp4">
+        <source src="assets/demos/koeba_demo2.mp4" type="video/mp4">
     </video>
     <br>
     Identity preservation and faithful transfer of head motion and facial expressions from multiple drivers
