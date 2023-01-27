@@ -59,11 +59,12 @@ DisCoHead/
 
 ```
 - The `--mode` argument is used for specifying which demo video you want to generate.
-- For example, run the following command to reproduce Obama demo1:
+- available modes: `obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2`
+
 ```shell
-python test.py --mode obama_demo1
+python test.py --mode {mode}
 ```
-- mode : `{obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2}`
+
 
 ## License
 ```plain
