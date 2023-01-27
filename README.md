@@ -49,7 +49,11 @@ DisCoHead/
 │   │   ├── demo1/
 │   │   ├── demo2/
 │   ├── koeba/
+│   │   ├── demo1/
+│   │   ├── demo2/
 │   ├── obama/
+│   │   ├── demo1/
+│   │   ├── demo2/
 ├── weight/
 │   ├── grid.pt
 │   ├── koeba.pt
@@ -60,10 +64,10 @@ DisCoHead/
 ```
 - The `--mode` argument is used for specifying which demo video you want to generate.
 - To reproduce first obama demo video, run command :
-- mode : `{obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2}`
 ```shell
 python test.py --mode obama_demo1
 ```
+- mode : `{obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2}`
 
 ## License
 ```plain
