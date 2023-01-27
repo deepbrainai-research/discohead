@@ -59,7 +59,7 @@ DisCoHead/
 
 ```
 - The `--mode` argument is used for specifying which demo video you want to generate.
-- For example, run the following command to reproduce first obama demo video:
+- For example, run the following command to reproduce Obama demo1:
 ```shell
 python test.py --mode obama_demo1
 ```
