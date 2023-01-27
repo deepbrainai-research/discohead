@@ -64,7 +64,9 @@ python test.py --mode {mode}
 ```
 - Available modes: 
 
-`obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2`
+```
+obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2
+```
 
 
 ## License
