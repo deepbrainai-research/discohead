@@ -66,7 +66,7 @@ For realistic talking head generation, creating natural head motion while mainta
 
 <center>
     <!-- <iframe width="640" height="360" src="assets/videos/SampleVideo_1280x720_1mb.mp4" frameborder="0"> </iframe><br> -->
-    <video controls preload="auto" width="640" height="320">
+    <video controls preload="auto" width="600" height="300">
         <source src="assets/demos/koeba1_.mp4" type="video/mp4">
     </video>
     <br>
