@@ -24,7 +24,6 @@
 - PyTorch 1.10.0
 - Python 3.7
 
-## Installation
 You can install required environments using below commands:
 
 ```shell
