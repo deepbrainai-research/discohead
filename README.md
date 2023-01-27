@@ -13,18 +13,14 @@
 
 <h4 align="center">
     <p>
-        <a href="https://deepbrainai-research.github.io/discohead">Demo</a> | 
-        <a href="https://github.com/deepbrainai-research/koeba">KoEBA</a> 
+        <a href="https://deepbrainai-research.github.io/discohead">Project Page</a> | 
+        <a href="https://github.com/deepbrainai-research/koeba">KoEBA Dataset</a> 
     <p>
 </h4>
 
 
 ## Requirements
-- CUDA 10.2
-- PyTorch 1.10.0
-- Python 3.7
 
-## Installation
 You can install required environments using below commands:
 
 ```shell
@@ -45,23 +41,29 @@ pip install -r requirements.txt
 ```
 DisCoHead/
 ├── dataset/
-│   ├── fig2/
-│   ├── fig3/
-│   ├── fig4/
+│   ├── grid/
+│   │   ├── demo1/
+│   │   ├── demo2/
+│   ├── koeba/
+│   │   ├── demo1/
+│   │   ├── demo2/
+│   ├── obama/
+│   │   ├── demo1/
+│   │   ├── demo2/
 ├── weight/
-│   ├── obama.pt
 │   ├── grid.pt
 │   ├── koeba.pt
+│   ├── obama.pt
 ├── modules/
 ‥‥
 
 ```
-- The `--fig_number` argument is used for specifying which figure you want to generate.
-- To reproduce fig. 2 of obama dataset, run command :
-
+- The `--mode` argument is used to specify which demo video you want to generate:
 ```shell
-python test.py --fig_number 2
+python test.py --mode {mode}
 ```
+- Available modes: `obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2`
+
 
 ## License
 ```plain
@@ -74,3 +76,4 @@ Non-commercial
 ```plain
 To be updated
 ```
+ 
