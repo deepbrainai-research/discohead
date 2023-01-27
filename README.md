@@ -45,22 +45,24 @@ pip install -r requirements.txt
 ```
 DisCoHead/
 ├── dataset/
-│   ├── fig2/
-│   ├── fig3/
-│   ├── fig4/
+│   ├── grid/
+│   │   ├── demo1/
+│   │   ├── demo2/
+│   ├── koeba/
+│   ├── obama/
 ├── weight/
-│   ├── obama.pt
 │   ├── grid.pt
 │   ├── koeba.pt
+│   ├── obama.pt
 ├── modules/
 ‥‥
 
 ```
-- The `--fig_number` argument is used for specifying which demo video of figure you want to generate.
-- For example, to reproduce demo video of fig. 2 original paper, run command :
-
+- The `--mode` argument is used for specifying which demo video you want to generate.
+- To reproduce first obama demo video, run command :
+- mode : `{obama_demo1, obama_demo2, grid_demo1, grid_demo2, koeba_demo1, koeba_demo2}`
 ```shell
-python test.py --fig_number 2
+python test.py --mode obama_demo1
 ```
 
 ## License
