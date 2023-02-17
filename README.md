@@ -26,7 +26,7 @@ You can install required environments using below commands:
 ```shell
 git clone https://github.com/deepbrainai-research/discohead
 cd discohead
-conda env create -n discohead python=3.7
+conda create -n discohead python=3.7
 conda activate discohead
 conda install pytorch==1.10.0 torchvision==0.11.1 torchaudio==0.10.0 cudatoolkit=10.2 -c pytorch
 pip install -r requirements.txt
