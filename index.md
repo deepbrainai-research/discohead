@@ -3,11 +3,11 @@ layout: default
 ---
 # Abstract
 
-For realistic talking head generation, creating natural head motion while maintaining accurate lip synchronization is essential. To fulfill this challenging task, we propose DisCoHead, a novel method to disentangle and control head pose and facial expressions without supervision. DisCoHead uses a single geometric transformation as a bottleneck to isolate and extract the head motion from a head-driving video. Either affine or thin-plate spline can be used and works well as a geometric transformation. We enhance the efficiency of DisCoHead by integrating dense motion estimator and the encoder of generator which were originally separate modules. Taking a step further, we also propose a neural mixing where dense motion is estimated and applied implicitly by the encoder. After applying the disentangled head motion to a source identity, DisCoHead controls the mouth region according to speech audio, and it blinks eyes and moves eyebrows following a separate driving video of the eye region, via weight modulation of convolutional neural networks. The experiments using multiple datasets show that DisCoHead successfully generates realistic audio-and-video-driven talking heads and outperforms state-of-the-art methods.
+For realistic talking head generation, creating natural head motion while maintaining accurate lip synchronization is essential. To fulfill this challenging task, we propose DisCoHead, a novel method to disentangle and control head pose and facial expressions without supervision. DisCoHead uses a single geometric transformation as a bottleneck to isolate and extract head motion from a head-driving video. Either an affine or a thin-plate spline transformation can be used and both work well as geometric bottlenecks. We enhance the efficiency of DisCoHead by integrating a dense motion estimator and the encoder of a generator which are originally separate modules. Taking a step further, we also propose a neural mix approach where dense motion is estimated and applied implicitly by the encoder. After applying the disentangled head motion to a source identity, DisCoHead controls the mouth region according to speech audio, and it blinks eyes and moves eyebrows following a separate driving video of the eye region, via the weight modulation of convolutional neural networks. The experiments using multiple datasets show that DisCoHead successfully generates realistic audio-and-video-driven talking heads and outperforms state-of-the-art methods. Project page: https://deepbrainai-research.github.io/discohead/
 <br><br>
 
 # Architecture
-<img src="./assets/images/figures-architecture.png">
+<img src="./assets/images/figures-architecture2.png">
 <br><br>
 
 # Demo Videos
@@ -88,7 +88,7 @@ For realistic talking head generation, creating natural head motion while mainta
 <br>
 <br>
 
-# Code 
+# Demo Code 
 
 <center>
     <figure>
@@ -110,5 +110,12 @@ This work was supported by the Institute of Information & Communications Technol
 
 # Citation
 ```
-To be updated
+@misc{hwang2023discohead,
+      title={DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions},
+      author={Geumbyeol Hwang and Sunwon Hong and Seunghyun Lee and Sungwoo Park and Gyeongsu Chae},
+      year={2023},
+      eprint={2303.07697},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
