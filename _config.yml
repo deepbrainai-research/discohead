@@ -1,5 +1,5 @@
 title: "DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions"
-description: "Authors: Geumbyeol Hwang<sup>*</sup>, Sunwon Hong<sup>*</sup>, Seunghyun Lee, Sungwoo Park, Gyeongsu Chae<sup>†</sup> <br><font size='1'><sup>*</sup> Equal contribution <sup>†</sup> Corresponding author </font>"
+description: "Authors: Geumbyeol Hwang<sup>*</sup>, Sunwon Hong<sup>*</sup>, Seunghyun Lee, Sungwoo Park, Gyeongsu Chae<sup>†</sup> <br><font size='1'><sup>*</sup> Equal contribution <sup>†</sup> Correspondence to: gc@deepbrain.io </font>"
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
