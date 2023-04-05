@@ -74,6 +74,12 @@ Non-commercial
 ## Citation 
 
 ```plain
-To be updated
-```
+@misc{hwang2023discohead,
+      title={DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions},
+      author={Geumbyeol Hwang and Sunwon Hong and Seunghyun Lee and Sungwoo Park and Gyeongsu Chae},
+      year={2023},
+      eprint={2303.07697},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}```
  
