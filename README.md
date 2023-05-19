@@ -67,19 +67,21 @@ python test.py --mode {mode}
 
 ## License
 ```plain
-Non-commercial
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license(CC BY-NC-SA 4.0). 
 ```
     
    
 ## Citation 
 
 ```plain
-@misc{hwang2023discohead,
-      title={DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions},
-      author={Geumbyeol Hwang and Sunwon Hong and Seunghyun Lee and Sungwoo Park and Gyeongsu Chae},
-      year={2023},
-      eprint={2303.07697},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}```
+@INPROCEEDINGS{10095670,
+  author={Hwang, Geumbyeol and Hong, Sunwon and Lee, Seunghyun and Park, Sungwoo and Chae, Gyeongsu},
+  booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ICASSP49357.2023.10095670}}
+```
  
