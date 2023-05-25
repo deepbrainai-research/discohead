@@ -66,14 +66,26 @@ python test.py --mode {mode}
 
 
 ## License
-```plain
-Non-commercial
-```
+
+<p align=center>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"/>
+    </a>
+    <br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. You must not use this work for commercial purposes. You must not distribute it in modified material. You must give appropriate credit and provide a link to the license.
+</p>
     
    
 ## Citation 
 
 ```plain
-To be updated
+@INPROCEEDINGS{10095670,
+  author={Hwang, Geumbyeol and Hong, Sunwon and Lee, Seunghyun and Park, Sungwoo and Chae, Gyeongsu},
+  booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ICASSP49357.2023.10095670}}
 ```
  
