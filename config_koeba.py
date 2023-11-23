@@ -1,13 +1,13 @@
-from modules.audio_encoder import AudioEncoder
-
+from modules.audio_encoder_bn import AudioEncoder
+​
 params = {
-    'fps': 25,
+    'fps': 29.97,
     'samplerate': 22050,
-    'weight_path': './weight/grid.pt',
+    'weight_path': './weight/koeba.pt',
     'model_params': {
         'head_predictor': {
             'num_affines': 1,
-            'using_scale': False
+            'using_scale': True
         },
         'generator': {
             'num_affines': 1,
