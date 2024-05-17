@@ -34,8 +34,8 @@ pip install -r requirements.txt
 
 ## Generating Demo Videos
 
-- Download the pre-trained checkpoints from [google drive](https://drive.google.com/drive/folders/1JOWwCVF8v2yNJ_n6a4BsaXuZZFKGo4je?usp=sharing) and put into `weight` folder.
-- Download `dataset.zip` from [google drive](https://drive.google.com/drive/folders/1JOWwCVF8v2yNJ_n6a4BsaXuZZFKGo4je?usp=sharing) and unzip into `dataset`. 
+- Download the pre-trained checkpoints from [google drive](https://drive.google.com/file/d/1ki8BsZ3Yg2i5OhHF04ULwtgFg6r5Tsro/view?usp=sharing) and put into `weight` folder.
+- Download `dataset.zip` from [google drive](https://drive.google.com/file/d/1xy9pxgQYrl2Bnee4npq88zdrHlIcX2wf/view?usp=sharing) and unzip into `dataset`. 
 - `DisCoHead` directory should have the following structure.
 
 ```
